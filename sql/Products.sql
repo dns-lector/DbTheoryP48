@@ -10,3 +10,44 @@
     [Stock]        INT                NOT NULL   DEFAULT 0,
     [DeletedAt]    DATETIME2              NULL
 )
+
+/*
+Acer
+  27 999 Ноутбук Acer Aspire Go 15 AG15-51P-75R9 (NX.J51EU.00G) Steel Gray / 15.3" IPS WUXGA / Intel Core i7-1355U / RAM 16 ГБ / SSD 512 ГБ   
+  40 999 Ноутбук Acer Nitro Lite NL16-71G-58HN (NH.DAEEU.001) Shale Black / 16” IPS WUXGA 165 Гц / Intel Core i5-13420H / RAM 16 ГБ / SSD 512 ГБ / nVidia GeForce RTX 4050, 6 ГБ  
+    Packard Bell
+      7 020 Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB, N4020 (N11260BK) Black (Open Box)
+      9 458 Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB N3250 (N11260BK) Black
+    Gateway
+      33 975 Ультратонкий ноутбук Gateway GWNR71539 AMD Ryzen™ 7 3700U до 4, 00 ГГц, пам’яттю 16 ГБ DDR4, 1 ТБ SSD, відеокартою Radeon™ RX Vega 10, дисплеєм 15, 6 дюйма Full HD, Windows 11
+      17 940 Ультрабук Gateway GWTC71427-BK / 14" (1920x1080) IPS Touch / Intel Core i7-1255U (10 (12) ядер по 1.7 - 4.7 GHz) / 8 GB DDR4 / 512 GB SSD / Intel Iris Xe Graphics eligible / WebCam
+      22 946 Ігровий ноутбук Gateway GWTN156-2BK / 15.6" (1920x1080) IPS / AMD Ryzen 5 4600H (6 (12) ядер по 3.0 - 4.0 GHz) / 8 GB DDR4 / 256 GB SSD / nVidia GeForce GTX 1650, 4 GB GDDR6, 128-bit / WebCam б/в
+    eMachines
+      4 065 Ноутбук eMachines G625-AMD TF-20-1.6GHz-2Gb-DDR3-250Gb-HDD-W17.3-DVD-RW-Web-(B)- Б/В
+      3 750 Ноутбук eMachines E525-Intel Celeron T3000-1.8GHz-4Gb-DDR3-320Gb-HDD-W15.5-DVD-RW-(B)- Б/В
+
+
+Xiaomi 
+  44 650 Ноутбук Xiaomi RedmiBook Pro 16 2024 Ultra5/32G/1T (JYU4592CN)
+  899 Бездротова миша Xiaomi Dual-mode Wireless Mouse 2 BHR8850GL Black
+  2 499 Смарт-клавіатура Xiaomi Wired Mechanical Keyboard Green Switch BHR6079CN
+    POCO
+      
+    Black Shark
+       3 799 Джойстик Black Shark Green Ghost 3 Mode Elite Controller
+       3 299 Джойстик Black Shark Magic Wireless Game Controller BHR8152CN Black
+
+
+Dell
+  33 999 Ноутбук Dell 15 Laptop (210-BRNX_54Wh_WP) Carbon Black / 15.6" WVA WUXGA 120 Гц / Intel Core i5-1334U / RAM 16 ГБ / SSD 512 ГБ / Windows 11 Pro
+  57 659 Монітор Dell UP3017 2560x1600 AH-IPS 350 кд/м² (210-AJLP)
+  569 Миша Dell MS116 Black Дротова (570-AAIR)
+    Alienware
+      67 820 Ноутбук Alienware 16 Aurora AC16250 (LAC16250-7469BLU-PUS)
+      14 327 Монітор Alienware AW2525HM 24.5" IPS 1920x1080 (FullHD) 400 кд/м² (210-BRYJ) 
+      109 499 Ігровий (2025) ноутбук Dell Alienware 16X Aurora Ultra 7 255HX/ 32GB / 1TB+1TB/ Win11x Licensed/ RTX5060 / 16" 240Hz
+      171 911 Десктоп Alienware Aurora R13 i7-12700KF Intel Core i7 16 ГБ DDR5-SDRAM 2512 ГБ HDD+SSD
+      5 999 Клавіатура Alienware Tenkeyless Gaming Keyboard AW420K Black
+      5 471 Миша Alienware Tri-Mode Gaming - AW720M Lunar Light (545-BBDO)
+      131 954 Десктоп Alienware Aurora R11, Core i7 10700KF, 32GB 3200MHz, 2TB SSD PCIe NVMe, RTX 2080
+*/

@@ -7,3 +7,16 @@
     [ImageUrl]     NVARCHAR(256)      NOT NULL,
     [DeletedAt]    DATETIME2              NULL
 )
+
+/*
+Acer
+    Packard Bell
+    Gateway
+    eMachines
+Xiaomi 
+    POCO
+    Black Shark
+Dell
+    Alienware
+ASUS
+*/
