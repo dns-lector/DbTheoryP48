@@ -15,6 +15,15 @@
 Acer
   27 999 Ноутбук Acer Aspire Go 15 AG15-51P-75R9 (NX.J51EU.00G) Steel Gray / 15.3" IPS WUXGA / Intel Core i7-1355U / RAM 16 ГБ / SSD 512 ГБ   
   40 999 Ноутбук Acer Nitro Lite NL16-71G-58HN (NH.DAEEU.001) Shale Black / 16” IPS WUXGA 165 Гц / Intel Core i5-13420H / RAM 16 ГБ / SSD 512 ГБ / nVidia GeForce RTX 4050, 6 ГБ  
+  22 482 Моноблок Acer Aspire C24-1600 Екран 23.8" (1920x1080) Full HD / Intel Pentium Silver N6005 (2.0 - 3.3 ГГц) / RAM 8 ГБ / SSD 256 ГБ / Intel UHD Graphics / без ОД / LAN / Wi-Fi / Bluetooth / кардрідер / веб-камера / без Bluetooth
+  52 823 Десктоп Acer ConceptD CT300-51A Intel Core i7-10700 (2.9 - 4.8 ГГц) / RAM 32 ГБ / HDD 2 ТБ + SSD 1 ТБ / nVidia GeForce RTX 3070, 8 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / кардрідер / Windows 10 Pro
+  3 963 Неттоп Acer Veriton N4640G USFF / Intel Celeron G3900T (2 ядра по 2,6 ГГц) / 8 ГБ DDR4 / 128 ГБ SSD / Intel HD Graphics 510 / Блок живлення б/в
+  3 399 Монітор 24.5" Acer EK251QGbi (UM.KE1EE.G01) -- IPS FHD / 120Hz / 4 мс (GTG) / AMD FreeSync / Blue Light Filter / sRGB: 99 %
+  201 Офісна миша Acer Optical 008 USB Black (HP.EXPBG.008)
+  893 Ігрова Миша Acer Nitro II NMW200, USB-A, чорний
+  2 529 Дизайнерська Миша ACER OMR225 Pro з комбінованим підключенням, RGB, безшумна, з бічним коліском, 8000 DPI, чорний
+  4 356 Дизайнерська Клавіатура ACER OKR217 із комбінованим підключенням через кабель. адаптер USB2.4ГГц, Bluetooth, з підсвічуванням
+  473 Офісна Клавіатура Acer OKW010 USB Black
     Packard Bell
       7 020 Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB, N4020 (N11260BK) Black (Open Box)
       9 458 Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB N3250 (N11260BK) Black
@@ -30,7 +39,10 @@ Acer
 Xiaomi 
   44 650 Ноутбук Xiaomi RedmiBook Pro 16 2024 Ultra5/32G/1T (JYU4592CN)
   899 Бездротова миша Xiaomi Dual-mode Wireless Mouse 2 BHR8850GL Black
+  1 099 Ігрова мишка Xiaomi Mi Gaming Mouse Lite (BHR5716CN) 6200dpi
   2 499 Смарт-клавіатура Xiaomi Wired Mechanical Keyboard Green Switch BHR6079CN
+  3 999 Дизайнерська Клавіатура бездротова Xiaomi MIIIW ART Z830 Pro Max Wireless/Bluetooth/USB (MWMKB04)
+  3 555 Монітор 23,8" Xiaomi Monitor A24i 1920x1080 (FullHD) IPS (ELA5444EU)
     POCO
       
     Black Shark
@@ -42,6 +54,9 @@ Dell
   33 999 Ноутбук Dell 15 Laptop (210-BRNX_54Wh_WP) Carbon Black / 15.6" WVA WUXGA 120 Гц / Intel Core i5-1334U / RAM 16 ГБ / SSD 512 ГБ / Windows 11 Pro
   57 659 Монітор Dell UP3017 2560x1600 AH-IPS 350 кд/м² (210-AJLP)
   569 Миша Dell MS116 Black Дротова (570-AAIR)
+  29 599 Неттоп Dell Pro Micro Intel Core i3-14100T (3.5 - 4.1 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel UHD Graphics 730 / без ОД / LAN / Wi-Fi / Bluetooth / Ubuntu (BTO003_QCM1250_UA_UBU)
+  32 638 Десктоп Dell Pro Slim Essential SFF Intel Core i5-14400 (2.5 - 4.7 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel UHD Graphics 730 / без ОД / LAN / Wi-Fi / Bluetooth / Linux / клавіатура + мишка (BTO004_QVS1260_UBU)
+  69 674 Моноблок Dell BTO103_QC24251 Pro AiO 23.8" FHD IPS AG, Intel U5-235T, 16GB, F512GB, UMA, WiFi, кл+м, Win11P
     Alienware
       67 820 Ноутбук Alienware 16 Aurora AC16250 (LAC16250-7469BLU-PUS)
       14 327 Монітор Alienware AW2525HM 24.5" IPS 1920x1080 (FullHD) 400 кд/м² (210-BRYJ) 
@@ -50,4 +65,14 @@ Dell
       5 999 Клавіатура Alienware Tenkeyless Gaming Keyboard AW420K Black
       5 471 Миша Alienware Tri-Mode Gaming - AW720M Lunar Light (545-BBDO)
       131 954 Десктоп Alienware Aurora R11, Core i7 10700KF, 32GB 3200MHz, 2TB SSD PCIe NVMe, RTX 2080
+
+ASUS
+  93 999 Ноутбук ASUS ROG Strix G18 (2025) G814PP-S9022 (90NR0KY8-M000T0) Eclipse Gray / 18" IPS WQXGA 240 Гц / AMD Ryzen 9 8940HX / RAM 32 ГБ / SSD 1 ТБ / GeForce RTX 5070, 8 ГБ
+  3 799 Миша бездротова Asus ROG Keris AimPoint RGB Black (90MP02V0-BMUA00)
+  43 999 Монiтор Asus 24.1" ROG Strix XG248QSG Ace (90LM0C40-B01371) Black 610Hz
+  170 257 Системний блок ASUS Core i9 14900KF / RTX 5080 16ГБ / 64ГБ DDR5 / SSD 2TБ M.2 PCIe + Wi-Fi 6.0
+  38 261 Моноблок Комп'ютер ASUS M3402WFAK-BPC0340 AiO / Ryzen5 7520U, 16, 512, WiFi, кл+м (90PT03L2-M011M0)
+  12 710 Клавіатура ASUS ROG Falchion Ace HFX 68key Magnetic Switches USB-A EN RGB (90MP04KE-BKUA20)
+
+
 */
