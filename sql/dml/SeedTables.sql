@@ -119,18 +119,52 @@ VALUES
 (NEWID(), 'DC450CB9-9CDD-4D65-855B-2DC2E94ACC03', '90413946-0B19-4CFE-869C-30925BF2C829', 
     N'Acer OKW010', N'Офісна Клавіатура Acer OKW010 USB Black', N'OKW010', 473, 10 );
 
-/*   
-    Packard Bell
-      7 020 Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB, N4020 (N11260BK) Black (Open Box)
-      9 458 Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB N3250 (N11260BK) Black
-    Gateway
-      33 975 Ультратонкий ноутбук Gateway GWNR71539 AMD Ryzen™ 7 3700U до 4, 00 ГГц, пам’яттю 16 ГБ DDR4, 1 ТБ SSD, відеокартою Radeon™ RX Vega 10, дисплеєм 15, 6 дюйма Full HD, Windows 11
-      17 940 Ультрабук Gateway GWTC71427-BK / 14" (1920x1080) IPS Touch / Intel Core i7-1255U (10 (12) ядер по 1.7 - 4.7 GHz) / 8 GB DDR4 / 512 GB SSD / Intel Iris Xe Graphics eligible / WebCam
-      22 946 Ігровий ноутбук Gateway GWTN156-2BK / 15.6" (1920x1080) IPS / AMD Ryzen 5 4600H (6 (12) ядер по 3.0 - 4.0 GHz) / 8 GB DDR4 / 256 GB SSD / nVidia GeForce GTX 1650, 4 GB GDDR6, 128-bit / WebCam б/в
-    eMachines
-      4 065 Ноутбук eMachines G625-AMD TF-20-1.6GHz-2Gb-DDR3-250Gb-HDD-W17.3-DVD-RW-Web-(B)- Б/В
-      3 750 Ноутбук eMachines E525-Intel Celeron T3000-1.8GHz-4Gb-DDR3-320Gb-HDD-W15.5-DVD-RW-(B)- Б/В
 
+INSERT INTO Products ([Id],[GroupId],[ProducerId],[Name],[Description],[Slug],[Price],[Stock] )
+VALUES
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    'B06014C8-B7C3-4EC1-B20A-4FB70C615C2F', -- Id з Producers, що відповідає "Packard Bell"
+    N'Packard Bell Cloudbook 11.6" HD 4/64GB, N4020', 
+    N'Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB, N4020 (N11260BK) Black (Open Box)', 
+    N'NN4020', 7020, 10 ),
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    'B06014C8-B7C3-4EC1-B20A-4FB70C615C2F', -- Id з Producers, що відповідає "Packard Bell"
+    N'Packard Bell Cloudbook 11.6" HD 4/64GB, N3250', 
+    N'Ноутбук Packard Bell Cloudbook 11.6" HD 4/64GB N3250 (N11260BK) Black', 
+    N'N3250', 9458, 10 ),
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    '1C41932D-70DB-43E7-90EE-26518C7098D4', -- Id з Producers, що відповідає "Gateway"
+    N'Gateway GWNR71539', 
+    N'Ультратонкий ноутбук Gateway GWNR71539 AMD Ryzen™ 7 3700U до 4, 00 ГГц, пам’яттю 16 ГБ DDR4, 1 ТБ SSD, відеокартою Radeon™ RX Vega 10, дисплеєм 15, 6 дюйма Full HD, Windows 11', 
+    N'GWNR71539', 33975, 10 ),
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    '1C41932D-70DB-43E7-90EE-26518C7098D4', -- Id з Producers, що відповідає "Gateway"
+    N'Gateway GWTC71427-BK', 
+    N'Ультрабук Gateway GWTC71427-BK / 14" (1920x1080) IPS Touch / Intel Core i7-1255U (10 (12) ядер по 1.7 - 4.7 GHz) / 8 GB DDR4 / 512 GB SSD / Intel Iris Xe Graphics eligible / WebCam', 
+    N'GWTC71427-BK', 17940, 10 ),
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    '1C41932D-70DB-43E7-90EE-26518C7098D4', -- Id з Producers, що відповідає "Gateway"
+    N'Gateway GWTN156-2BK', 
+    N'Ігровий ноутбук Gateway GWTN156-2BK / 15.6" (1920x1080) IPS / AMD Ryzen 5 4600H (6 (12) ядер по 3.0 - 4.0 GHz) / 8 GB DDR4 / 256 GB SSD / nVidia GeForce GTX 1650, 4 GB GDDR6, 128-bit / WebCam б/в', 
+    N'GWTN156-2BK', 22946, 10 ),
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    '7AD70794-E2D9-47CF-AF0C-6B78B7E098DD', -- Id з Producers, що відповідає "eMachines"
+    N'eMachines G625-AMD', 
+    N'Ноутбук eMachines G625-AMD TF-20-1.6GHz-2Gb-DDR3-250Gb-HDD-W17.3-DVD-RW-Web-(B)- Б/В', 
+    N'G625-AMD', 4065, 10 ),
+(NEWID(), 
+    'FAB22108-CCC7-4A8D-ADA0-32004692B95F', -- Id з ProductGroups, що відповідає "Ноутбуки"
+    '7AD70794-E2D9-47CF-AF0C-6B78B7E098DD', -- Id з Producers, що відповідає "eMachines"
+    N'eMachines E525-Intel', 
+    N'Ноутбук eMachines E525-Intel Celeron T3000-1.8GHz-4Gb-DDR3-320Gb-HDD-W15.5-DVD-RW-(B)- Б/В', 
+    N'E525-Intel', 3750, 10 );
+/*   
 
 Xiaomi 
   44 650 Ноутбук Xiaomi RedmiBook Pro 16 2024 Ultra5/32G/1T (JYU4592CN)
