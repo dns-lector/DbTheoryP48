@@ -33,3 +33,12 @@ CREATE TABLE Products (
     [Stock]        INT                NOT NULL   DEFAULT 0,
     [DeletedAt]    DATETIME2              NULL
 );
+
+DROP TABLE IF EXISTS Sales;
+CREATE TABLE Sales (
+    [Id]           UNIQUEIDENTIFIER   NOT NULL   PRIMARY KEY,
+    [SaleAt]       DATETIME2          NOT NULL   DEFAULT CURRENT_TIMESTAMP,
+    [ProductId]    UNIQUEIDENTIFIER   NOT NULL,
+    [Quantity]     INT                NOT NULL   DEFAULT 0,    
+    [Price]        DECIMAL(12,2)      NOT NULL
+);

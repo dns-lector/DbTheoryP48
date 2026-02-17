@@ -205,3 +205,22 @@ ASUS
   12 710 Клавіатура ASUS ROG Falchion Ace HFX 68key Magnetic Switches USB-A EN RGB (90MP04KE-BKUA20)
 
 */
+
+SET NOCOUNT ON
+DECLARE @i INT
+SET @i = 100
+DECLARE @ProductId UNIQUEIDENTIFIER
+DECLARE @q INT
+WHILE @i > 0
+BEGIN
+    SET @ProductId = (SELECT TOP 1 Id FROM Products ORDER BY NEWID())
+    SET @q = ABS(CHECKSUM(NEWID())) % 10 + 1
+    INSERT INTO Sales VALUES (
+        NEWID(),
+        DATEADD(MINUTE, -(ABS(CHECKSUM(NEWID())) % 100000), CURRENT_TIMESTAMP),
+        @ProductId,
+        @q,
+        @q * (SELECT Price FROM Products WHERE Id = @ProductId)
+    )
+    SET @i = @i - 1
+END
