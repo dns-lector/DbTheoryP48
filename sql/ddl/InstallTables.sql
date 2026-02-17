@@ -42,3 +42,12 @@ CREATE TABLE Sales (
     [Quantity]     INT                NOT NULL   DEFAULT 0,    
     [Price]        DECIMAL(12,2)      NOT NULL
 );
+
+-- Таблиця-акумулятор
+DROP TABLE IF EXISTS AccSales;
+CREATE TABLE AccSales(
+	Line          INT  PRIMARY KEY,
+	TotalSales    INT,
+	TotalQuantity INT,
+	TotalPrice    DECIMAL(18,2)
+);

@@ -224,3 +224,12 @@ BEGIN
     )
     SET @i = @i - 1
 END
+
+
+-- Початкове заповнення акумулятора
+INSERT INTO AccSales VALUES(
+	1,
+	(SELECT COUNT(*) FROM Sales),
+	(SELECT SUM(Quantity) FROM Sales),
+	(SELECT SUM(Price) FROM Sales)
+);
